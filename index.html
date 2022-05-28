@@ -11,10 +11,17 @@
   <body>
     <h3>Copy datetime range from SFX and get UTC for splunk searches</h1>
     <input id="sfx-date" placeholder="Paste sfx time range here" oninput="convertDateRange(value)" />
-    <div class="converted-date-container">
-      <p id="date-start" class="date"></p>
+    <div class="converted-datetime-container">
+      <div class="datetime">
+        <p id="date-start" class="date"></p>
+        <p id="time-start" class="time"></p>
+      </div>
       <p id="values">to</p>
-      <p id="date-end" class="date"></p>
+      <div class="datetime">
+        <p id="date-end" class="date"></p>
+        <p id="time-end" class="time"></p>
+      </div>
+
     </div>
   </body>
 </html>

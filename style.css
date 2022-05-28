@@ -9,15 +9,30 @@ body {
     min-width: 350px;
 }
 
-.converted-date-container {
+.converted-datetime-container {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     column-gap: 10px;
 }
 
-.date {
-    padding: 8px 14px;
-    min-width: 120px;
+.datetime {
+    display: flex;
     background-color: #e6e6fc;
+    min-width: 120px;
     border-radius: 5px;
+    height: 32px;
+    text-align: center;
+}
+
+.date {
+    padding: 8px 3px 8px 12px;
+    border-right: 1px #f8f9fe solid;
+    margin: 0;
+    width: 50px;
+}
+
+.time {
+    padding: 8px 12px 8px 3px;
+    margin: 0;
+    min-width: 70px;
 }
