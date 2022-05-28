@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>plop</title>
+    <link rel="icon" type="image/x-icon" href="apig.png">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="timeConversion.js" async></script>
+  </head>
+
+  <body>
+    <h3>Copy datetime range from SFX and get UTC for splunk searches</h1>
+    <input id="sfx-date" placeholder="Paste sfx time range here" oninput="convertDateRange(value)" />
+    <div class="converted-date-container">
+      <p id="date-start" class="date"></p>
+      <p id="values">to</p>
+      <p id="date-end" class="date"></p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,23 @@
+body {
+    color: rgb(64, 68, 82);
+    font-weight: 400;
+    font-size: 14px;
+}
+
+#sfx-date {
+    padding: 8px 14px;
+    min-width: 350px;
+}
+
+.converted-date-container {
+    display: flex;
+    align-items: baseline;
+    column-gap: 10px;
+}
+
+.date {
+    padding: 8px 14px;
+    min-width: 120px;
+    background-color: #e6e6fc;
+    border-radius: 5px;
+}
